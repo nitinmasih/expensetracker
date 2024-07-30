@@ -1,0 +1,48 @@
+.main-container {
+      width: 60%;
+      margin: auto;
+  }
+  
+  .main-container table {
+      width: 100%;
+      text-align: center;
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  
+  .main-container table > thead {
+      background-color: rgb(205, 202, 202);
+  }
+  
+  .main-container table th,
+  .main-container table td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+  }
+  .main-container table tr:nth-child(even){
+      background-color: pink;
+  }
+  .main-container .total {
+      display: flex;
+      border: 1px solid black;
+      border-top: none;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box; 
+  }
+  
+  .main-container .total-name,
+  .main-container .total-expense {
+      width: 50%;
+      border-top: 1px solid black; 
+      padding: 8px;
+  }
+  
+  .main-container .total-name{
+      padding-right: 10px;
+  }
+  .main-container .total-expense {
+      border-left: 1px solid black;
+  }
+  
